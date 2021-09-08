@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+
+#blocks{
+    display: flex;
+}
+
+#block{
+    height: 100vh;
+}
+
+#block2{
+    height: 75vh;
+}
+
+#block3{
+    height: 50vh;
+}
+body{
+    background-image: url('images/20210810_173714.jpg');
+    background-position: left top, right top;
+    background-repeat: no-repeat, repeat;
+    background-size: 70%,100%;
+  }
+
+#block, #block2, #block3{
+    background: #F67280;
+    display: flex;
+    position: relative;
+    width: 150px;
+    z-index: -1;
+}
+
+/*#photo{
+    display: inline-block;
+    position: relative;
+    justify-content: center;
+    z-index: 1;
+    height: 50%;
+    width: auto;
+}*/
+
+
